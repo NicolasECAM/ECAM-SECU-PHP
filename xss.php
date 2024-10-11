@@ -1,6 +1,5 @@
 <?php
 $texte=$_GET["texte"];
-$texte=htmlspecialchars($texte);
 print "Voici le résultat : ".$texte;
 ?>
 <!DOCTYPE html>
